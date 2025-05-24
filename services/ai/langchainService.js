@@ -6,7 +6,7 @@ require("dotenv").config();
 const BOT_NAME = "em gái AI";
 
 const model = new ChatGoogleGenerativeAI({
-    modelName: "gemini-2.5-pro-exp-03-25",
+    modelName: "gemini-2.0-flash",
     maxOutputTokens: 2048,
     temperature: 0.7,
     topK: 40,
